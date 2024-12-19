@@ -1,0 +1,11 @@
+2acb0a5ba17f8dd94045fde11bfce978 *DESCRIPTION
+94e598fc111b50b6067a9b448d961a57 *LICENSE
+0d2700effafd0ec1d5c856cd066bac2d *NAMESPACE
+9a93b271c21afec66ef6b7d5b09f7b5d *R/data.R
+29ce7c8957f6e58ea415c1f8c777ad27 *R/projection.R
+6f4adc479473fece51961d8eb286f009 *README.md
+92f97720c2183e5621684ad56af06ff8 *data/df_svy22.rda
+c50bcf4e7e0143fda2b53faa9b1eeeaf *data/df_svy23.rda
+d6147f2ae6943aac540c631ecd66718b *man/df_svy22.Rd
+fd5ad491106878799baf1c10012a1fd9 *man/df_svy23.Rd
+d1a21f1d603cc6fc79a4ed43bf8a5077 *man/projection.Rd
