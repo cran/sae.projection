@@ -19,7 +19,7 @@ projection(
   grid = 10,
   parallel_over = "resamples",
   seed = 1,
-  est_y = TRUE,
+  est_y = FALSE,
   ...
 )
 }
@@ -96,7 +96,7 @@ The available working models include:
 A complete list of models can be seen at the following link \href{https://www.tmwr.org/pre-proc-table}{Tidy Modeling With R}
 }
 \examples{
-\donttest{
+\dontrun{
 library(sae.projection)
 library(dplyr)
 library(bonsai)
@@ -134,10 +134,10 @@ df_svy23_neet <- df_svy23 \%>\% filter(between(age, 15, 24))
 # Logistic regression
 lr_proj <- projection(
   formula = neet ~ sex + edu + disability,
-  id = "PSU",
-  weight = "WEIGHT",
-  strata = "STRATA",
-  domain = c("PROV", "REGENCY"),
+  id = ~ PSU,
+  weight = ~ WEIGHT,
+  strata = ~ STRATA,
+  domain = ~ PROV + REGENCY,
   model = logistic_reg(),
   data_model = df_svy22_neet,
   data_proj = df_svy23_neet,

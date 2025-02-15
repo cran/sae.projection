@@ -65,7 +65,7 @@
 #' A complete list of models can be seen at the following link \href{https://www.tmwr.org/pre-proc-table}{Tidy Modeling With R}
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' library(sae.projection)
 #' library(dplyr)
 #' library(bonsai)
@@ -138,7 +138,7 @@
 #' @md
 projection <- function(
     formula, id, weight, strata = NULL, domain, fun = "mean", model,
-    data_model, data_proj, model_metric, kfold = 3, grid = 10, parallel_over = "resamples", seed = 1, est_y = TRUE, ...) {
+    data_model, data_proj, model_metric, kfold = 3, grid = 10, parallel_over = "resamples", seed = 1, est_y = FALSE, ...) {
 
   domain_chr <- domain
   id <- .check_variable(id, data_model, data_proj)
@@ -286,6 +286,12 @@ projection <- function(
   all_result$projection <- df_result
   return(all_result)
 }
+
+
+
+
+
+
 
 
 .check_variable <- function(variable, data_model, data_proj) {
