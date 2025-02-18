@@ -1,7 +1,7 @@
 Package: sae.projection
 Type: Package
 Title: Small Area Estimation Using Model-Assisted Projection Method
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
       person("Ridson", "Al Farizal P", role = c("aut", "cre","cph"), email = "ridsonalfarizal15@gmail.com", comment = c(ORCID = "0000-0003-0617-0214")),
       person("Azka", "Ubaidillah", role = "aut", email = "azka@stis.ac.id", comment = c(ORCID = "0000-0002-3597-0459")),
@@ -19,11 +19,11 @@ Imports: cli, doParallel, dplyr, methods, parsnip, recipes, rlang,
 RoxygenNote: 7.3.2
 Depends: R (>= 4.3.0), tidymodels
 NeedsCompilation: no
-Packaged: 2025-02-15 11:34:40 UTC; alfrz
+Packaged: 2025-02-17 15:39:25 UTC; Administrator
 Author: Ridson Al Farizal P [aut, cre, cph]
     (<https://orcid.org/0000-0003-0617-0214>),
   Azka Ubaidillah [aut] (<https://orcid.org/0000-0002-3597-0459>),
   Silvi Ajeng Larasati [aut]
 Maintainer: Ridson Al Farizal P <ridsonalfarizal15@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-02-15 11:50:02 UTC
+Date/Publication: 2025-02-18 08:20:02 UTC

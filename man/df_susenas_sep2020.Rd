@@ -12,7 +12,7 @@ A data frame with 3655 rows and 33 variables with 6 domains.
   \item{no_sample}{Sample number}
   \item{no_household}{Household number}
   \item{no_member}{Household member number}
-  \item{weight_pnl}{Weight from survey}
+  \item{weight}{Weight from survey}
   \item{province}{Province code}
   \item{urban_rural}{Urban or rural classification (1: Urban, 2: Rural)}
   \item{marital_status}{Marital status (1: Married, 0: Other)}
